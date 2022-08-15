@@ -1,0 +1,89 @@
+.offerContainer{
+    width: 70%;
+    margin: 20px auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer{
+    display: inline-flex;
+    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    width: 612px;
+    height: 272px;
+    border-radius: 6px;
+}
+.offer h4 , .offer h1 , .offer button{
+    margin: 10px 0 10px 40px;
+    width: 50%;
+}
+.offer button{
+    width: 100px;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+
+}
+.offer1{
+    background: url("../../../images/offer-1.jpg");
+}
+.offer2{
+    background: url("../../../images/offer-2.jpg");
+}
+@media screen and (max-width : 576px) {
+    .offerContainer{
+        flex-direction: column;
+        width: 99%;
+        margin: 20px 0;
+    }
+    .offer{
+        width: 95%;
+        margin: 10px auto;
+    }
+    .offer h4 , .offer h1 , .offer button{
+        width: 70%;
+    }
+    .offer button{
+        width: 100px;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 768px) {
+    .offerContainer{
+        flex-direction: column;
+        width: 99%;
+        margin: 20px 0;
+    }
+    .offer{
+        width: 70%;
+        margin: 10px auto;
+    }
+    .offer h4 , .offer h1 , .offer button{
+        width: 70%;
+    }
+    .offer button{
+        width: 100px;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1400px){
+    .offerContainer{
+        width: 95%;
+    }
+    .offer{
+        width: 48%;
+    }
+}
+@media screen and (min-width : 1400px) and (max-width : 1800px){
+    .offerContainer{
+        width: 80%;
+    }
+    .offer{
+        width: 48%;
+    }
+}

@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    color: #000;
+}
+.navbar .logo h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.navbar .logo h1 .diffrentCarLogo{
+    color: lightcoral;
+}
+.navbar .navbarList{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar .navbarList .navbarListItem{
+    list-style: none;
+    padding: 8px 16px;
+    color: #000;
+    transition: all 0.3s linear;
+}
+.navbar .navbarList .navbarListItem:hover{
+    color: lightcoral;
+    font-size: 1.2rem;
+}
+.navbar .navBtns button{
+    background-color: lightcoral;
+    cursor: pointer;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border: 2px solid lightcoral;
+    transition: all 0.3s linear;
+    position: relative;
+}
+.navbar .navBtns button:hover{
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    background-color: #fff;
+}
+.navbar .navBtns .search{
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    background-color: #fff;
+}
+.navbar .navBtns .search:hover{
+    background-color: lightcoral;
+    color: #fff;
+}
+.navbar .navBtns .cart .number{
+    background-color: #fff;
+    padding: 0 5px;
+    color: lightcoral;
+    border-radius: 10px;
+    border: 1px solid lightcoral;
+    position: absolute;top: -33%;
+}
+.hamberBtn{
+    display: none;
+}
+@media screen and (max-width : 576px) {
+    .navbar{
+        width: 95%;
+    }
+    .hamberBtn{
+        display: inline-block;
+        background-color: #fff;
+        color: lightcoral;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .navbar .navbarList{
+        display: none;
+    }
+    .navBtns{
+        display: none;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 856px){
+    .navbar{
+        width: 95%;
+    }
+    .hamberBtn{
+        display: inline-block;
+        background-color: #fff;
+        color: lightcoral;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .navbar .navbarList{
+        display: none;
+    }
+    .navBtns{
+        display: none;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1200px){
+    .navbar{
+        width: 95%;
+    }
+}

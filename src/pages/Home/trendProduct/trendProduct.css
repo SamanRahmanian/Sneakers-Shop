@@ -1,0 +1,50 @@
+.trendProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 40px auto;
+}
+.trendProduct .banner{
+    background: url("../../../images/special-banner.jpg");
+    background-size: cover ;
+    width: 290px;
+    height: 560px;
+    background-color: var(--smoky-black);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.trendProduct .banner h2{
+    color: #fff;
+    margin-top: 60px;
+}
+.trendProduct .banner button{
+    margin-bottom: 60px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.TrendProducts{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    width: 937px;
+    margin: 0 20px;
+    margin-top: -40px;
+}
+.TrendProducts .cards{
+    display: flex;
+    align-items: center;
+}

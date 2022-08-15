@@ -1,0 +1,79 @@
+.slider{
+    background: url("../../../images/slideImg.png") ;
+    width: 100vw;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.slider div{
+    width: 30%;
+    margin-left: 200px;
+}
+.slider div h2{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 0.8;
+    margin: 30px 0;
+}
+.slider div h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.slider div p{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.slider div button{
+    background-color: lightcoral;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+@media screen and (max-width : 576px) {
+    .slider{
+        height: 50vh;
+    }
+    .slider div{
+        width: 95%;
+        margin-left: 20px;
+    }
+    .slider div h2{
+        font-size: 35px;
+    }
+    .slider div h1{
+        font-size: 35px;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 768px) {
+    .slider{
+        height: 40vh;
+    }
+    .slider div{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .slider div h2{
+        font-size: 45px;
+    }
+    .slider div h1{
+        font-size: 45px;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1400px) {
+    .slider{
+        height: 40vh;
+    }
+    .slider div{
+        width: 60%;
+        margin-left: 50px;
+    }
+}

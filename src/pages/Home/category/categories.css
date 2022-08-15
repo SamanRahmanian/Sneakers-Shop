@@ -1,0 +1,21 @@
+.categories{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+@media screen and (max-width : 576px) {
+    .categories{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 768px) {
+    .categories{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1400px) {
+    .categories{
+        width: 95%;
+    }
+}
