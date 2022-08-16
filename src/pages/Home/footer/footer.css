@@ -51,7 +51,7 @@ footer{
 .developer{
     color: lightcoral;
 }
-@media screen and (max-width : 576px) {
+@media screen and (max-width : 768px) {
     .topSectionFooter{
         flex-direction: column;
     }

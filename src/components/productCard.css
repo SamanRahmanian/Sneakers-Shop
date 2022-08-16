@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 295px;
-    height: 450px;
+    max-width: 295px;
+    max-height: 450px;
     padding: 10px;
     margin: 20px 0;
     position: relative;
     cursor: pointer;
+    flex-grow: 1;
+    flex-basis: 295px;
 }
 .productCard img{
     width: 100%;

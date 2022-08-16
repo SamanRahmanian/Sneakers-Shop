@@ -1,11 +1,14 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import "./style.css";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Switch>
+        <Route path="/" component={Home} />
+      </Switch>
     </div>
   );
 }

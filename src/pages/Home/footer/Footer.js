@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="topSectionFooter">
         <h1 className="logo">
-          <span className="diffrentCarOnLogo">F</span>ootcap
+          <span className="diffrentCarOnLogo">S</span>neakers
         </h1>
         <div className="btns">
             <button><i className="fa fa-twitter"></i></button>

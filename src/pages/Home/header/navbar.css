@@ -68,6 +68,70 @@
 .hamberBtn{
     display: none;
 }
+.dropdownMenu{
+    display: none;
+}
+.activeMenu{
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background-color: rgba(240, 128, 128, 0.963);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+.closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    background-color: #f0808000;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+.activeMenu .navbarListDrop{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.activeMenu .navbarListDrop .navbarListItem{
+    list-style: none;
+    padding: 8px 16px;
+    color: #fff;
+    transition: all 0.3s linear;
+    margin: 15px 0;
+}
+.activeMenu .navBtnsDrop{
+    margin-left: 20px;
+}
+.activeMenu .navBtnsDrop button{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: lightcoral;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.3s linear;
+    position: relative;
+    font-size: 20px;
+}
+.activeMenu .navBtnsDrop button:hover{
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    background-color: #fff;
+}
 @media screen and (max-width : 576px) {
     .navbar{
         width: 95%;
@@ -88,7 +152,7 @@
         display: none;
     }
 }
-@media screen and (min-width : 576px) and (max-width : 856px){
+@media screen and (min-width : 576px) and (max-width : 877px){
     .navbar{
         width: 95%;
     }
