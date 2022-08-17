@@ -102,6 +102,9 @@
     display: flex;
     flex-direction: column;
     color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
 }
 .activeMenu .navbarListDrop .navbarListItem{
     list-style: none;
@@ -109,9 +112,7 @@
     color: #fff;
     transition: all 0.3s linear;
     margin: 15px 0;
-}
-.activeMenu .navBtnsDrop{
-    margin-left: 20px;
+    text-align: center;
 }
 .activeMenu .navBtnsDrop button{
     background-color: rgb(255, 255, 255);
