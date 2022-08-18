@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   const dropdownHandeler = () => {
@@ -22,9 +23,9 @@ const Navbar = () => {
           </h1>
         </div>
         <ul className="navbarList">
-          <a href="#">
+          <Link to="/">
             <li className="navbarListItem">Home</li>
-          </a>
+          </Link>
           <a href="#">
             <li className="navbarListItem">Products</li>
           </a>

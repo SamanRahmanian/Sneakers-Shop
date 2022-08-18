@@ -10,7 +10,6 @@
     background-size: cover ;
     width: 290px;
     height: 560px;
-    background-color: var(--smoky-black);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -18,15 +17,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 .trendProduct .banner h2{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.632);
     margin-top: 60px;
 }
 .trendProduct .banner button{
     margin-bottom: 60px;
-    background-color: #000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.616);
     border: none;
     outline: none;
     border-bottom: 2px solid #fff;

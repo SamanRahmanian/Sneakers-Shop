@@ -1,5 +1,6 @@
 import React from "react";
 import "./productCard.css";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ image, gender, category, shoseName, price }) => {
   return (
@@ -13,11 +14,13 @@ const ProductCard = ({ image, gender, category, shoseName, price }) => {
         <h3 className="price">{price}</h3>
       </div>
       <div className="cardBtn">
-        <button className="addToCart">
+        <button to="cart" className="addToCart">
           <i className="fa fa-cart-plus"></i>
         </button>
-        <button className="view">
-          <i className="fa fa-eye"></i>
+        <button>
+          <Link to="productPage" className="view">
+            <i className="fa fa-eye"></i>
+          </Link>
         </button>
       </div>
     </div>

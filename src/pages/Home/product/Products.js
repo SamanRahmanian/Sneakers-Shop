@@ -1,14 +1,14 @@
 import React from 'react';
 import ProductCard from '../../../components/ProductCard';
 import "./products.css";
-import product1 from "../../../images/product-1.jpg"
-import product2 from "../../../images/product-2.jpg"
-import product3 from "../../../images/product-3.jpg"
-import product4 from "../../../images/product-4.jpg"
-import product5 from "../../../images/product-5.jpg"
-import product6 from "../../../images/product-6.jpg"
-import product7 from "../../../images/product-7.jpg"
-import product8 from "../../../images/product-8.jpg"
+import product1 from "../../../images/p1-1.jpg"
+import product2 from "../../../images/p2-1.jpg"
+import product3 from "../../../images/p3-1.jpg"
+import product4 from "../../../images/p4-1.jpg"
+import product5 from "../../../images/p5-1.jpg"
+import product6 from "../../../images/p6-1.jpg"
+import product7 from "../../../images/p7-1.jpg"
+import product8 from "../../../images/p8-2.jpg"
 
 const Products = () => {
 

@@ -1,10 +1,9 @@
 import React from "react";
 import ProductCard from "../../../components/ProductCard";
 import "./trendProduct.css";
-import product1 from "../../../images/product-1.jpg";
-import product4 from "../../../images/product-4.jpg";
-import product6 from "../../../images/product-6.jpg";
-import product7 from "../../../images/product-7.jpg";
+import product1 from "../../../images/p1-1.jpg";
+import product4 from "../../../images/p4-1.jpg";
+import product6 from "../../../images/p6-1.jpg";
 
 const TrendProduct = () => {
   return (

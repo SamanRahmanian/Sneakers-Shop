@@ -9,8 +9,8 @@ const Categories = () => {
     return (
         <div className='categories'>
             <CategoryCard image={c1} title="MEN COLLECTIONS"/>
-            <CategoryCard image={c2} title="WOMEN COLLECTIONS"/>
-            <CategoryCard image={c3} title="SPORTS COLLECTIONS"/>
+            <CategoryCard image={c2} title="SPORTS COLLECTIONS"/>
+            <CategoryCard image={c3} title="WOMEN COLLECTIONS"/>
         </div>
     );
 };
