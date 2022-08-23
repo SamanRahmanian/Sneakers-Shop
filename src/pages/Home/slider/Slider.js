@@ -3,7 +3,7 @@ import "./slider.css";
 
 const Slider = () => {
   return (
-    <div className="slider">
+    <div className="slider animate__animated animate__fadeIn">
       <div>
         <h2>New Summer</h2>
         <h1>Shoes Collection</h1>

@@ -10,7 +10,7 @@
     align-items: center;
 }
 .slider div{
-    width: 30%;
+    width: 45%;
     margin-left: 200px;
 }
 .slider div h2{
@@ -26,6 +26,7 @@
 }
 .slider div p{
     width: 80%;
+    font-size: 17px;
     margin-bottom: 20px;
 }
 .slider div button{

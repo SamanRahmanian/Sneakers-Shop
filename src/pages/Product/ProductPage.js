@@ -42,7 +42,6 @@ const ProductPage = () => {
       <div className="productContainer">
         <div className="prictures">
           <img src={product1} alt="" className="mainPicture animate__animated animate__zoomIn" />
-          
         </div>
         <div className="content">
         <div className="smallPictures animate__animated animate__fadeInUp">

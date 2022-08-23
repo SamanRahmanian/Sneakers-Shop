@@ -10,7 +10,7 @@ import TrendProduct from './trendProduct/TrendProduct';
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Navbar />
             <Slider />
             <Categories />

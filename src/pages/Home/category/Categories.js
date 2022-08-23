@@ -7,7 +7,7 @@ import "./categories.css";
 
 const Categories = () => {
     return (
-        <div className='categories'>
+        <div id='category' className='categories'>
             <CategoryCard image={c1} title="MEN COLLECTIONS"/>
             <CategoryCard image={c2} title="SPORTS COLLECTIONS"/>
             <CategoryCard image={c3} title="WOMEN COLLECTIONS"/>
