@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ image, gender, category, shoseName, price }) => {
   return (
-    <div className="productCard">
+    <div className="productCard animate__animated animate__fadeIn">
       <div>
         <img src={image} alt="image" />
         <p className="categoryName">

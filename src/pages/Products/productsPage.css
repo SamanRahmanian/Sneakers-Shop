@@ -1,0 +1,43 @@
+.products h1{
+    color: #555;
+}
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.filter .brand , .filter .gender, .filter .price , .filter .search{
+    margin: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filter .brand  h2, .filter .gender h2, .filter .price h2 , .filter .search h2{
+    color: #999;
+}
+.filter .brand button , .filter .gender button{
+    padding: 10px 20px ;
+    margin: 5px ;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ede;
+    cursor: pointer;
+}
+.filter .price input , .filter .search input{
+    padding: 10px;
+    border: 1px solid #ede;
+    border-radius: 20px;
+    margin-left: 10px;
+    outline: none;
+}
+.filter .brand .active , .filter .gender .active{
+    background-color: lightcoral;
+    color: #fff;
+}
+@media screen and (max-width : 576px) {
+    .products{
+        width: 99%;
+    }
+}

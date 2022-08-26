@@ -114,6 +114,11 @@
     margin: 15px 0;
     text-align: center;
 }
+.activeMenu .navBtnsDrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .activeMenu .navBtnsDrop button{
     background-color: rgb(255, 255, 255);
     cursor: pointer;
